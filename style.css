@@ -10,4 +10,37 @@ body {
   
   h1 {
     color: #00752f;
+    
+  }.sorteio-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
   }
+  
+  input[type="number"] {
+    padding: 10px;
+    font-size: 1.1em;
+    width: 80px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #00752f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005c26;
+  }
+  
