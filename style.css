@@ -10,7 +10,7 @@ body {
   
   h1 {
     color: #00752f;
-    
+
   }.sorteio-box {
     background: white;
     padding: 30px;
@@ -42,5 +42,34 @@ body {
   
   button:hover {
     background-color: #005c26;
+  }
+  
+  #mensagem {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .cupom {
+    margin-top: 30px;
+    background: #fff8e1;
+    border: 2px dashed #f9a825;
+    color: #c67100;
+    padding: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 10px;
+    animation: pulse 1s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(1.05);
+      opacity: 0.8;
+    }
   }
   
